@@ -6,7 +6,7 @@ aside {
     background: #212121;        /*Цвет панели*/
     width: 100%;                        /*Ширина*/
     padding: 2.27%;                     /*внутренние отступы*/
-    height: 18.5vh;
+    height: 17.6vh;
     color: white;
     position: fixed;
     top: 0%;
@@ -31,9 +31,9 @@ aside ul li {
     float: left;
     color: #ffffff;
     display: block;
-    margin-top: -15px;
-    margin-left: 215px;
-    font-size: 24px;
+    margin-top: -14px;
+    margin-left: 205px;
+    font-size: 25px;
     transition: transform .6s ease;
 }
 aside .num {
@@ -63,14 +63,14 @@ main .config {
 }
 
 main .desk {
-    margin-top: -140px;
+    margin-top: -85px;
     margin-left: 100px;
     float: left;
     width: 430px;
 }
 
 main .desk_1 {
-    margin-top: -150px;
+    margin-top: -80px;
     margin-right: 100px;
     float: right;
     width: 440px;
@@ -91,7 +91,7 @@ main .dropbtn {
     background-color: #4CAF50;
     color: white;
     padding: 16px;
-    font-size: 16px;
+    font-size: 19px;
     border: none;
 }
 
@@ -106,7 +106,7 @@ main .dropdown-content {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
