@@ -1,0 +1,21 @@
+body {
+    color: #156d86;
+}
+
+aside {
+    float: left;
+    background: #212121;        /*Цвет панели*/
+    width: 20%;                        /*Ширина*/
+    padding: 2.5%;                     /*внутренние отступы*/
+    height: 100vh;
+    color: white;
+    border-right: 5px solid #751919;
+}
+main .tre {
+    color: plum;
+}
+
+aside img {
+    width: 80px;
+}
+

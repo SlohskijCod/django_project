@@ -1,0 +1,134 @@
+body {
+    background: #ffffff;
+}
+
+aside {
+    background: #212121;        /*Цвет панели*/
+    width: 100%;                        /*Ширина*/
+    padding: 2.27%;                     /*внутренние отступы*/
+    height: 18.5vh;
+    color: white;
+    position: fixed;
+    top: 0%;
+}
+
+aside img {
+    width: 80px;
+    float: left;
+}
+
+aside .logo {
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    top: -7px
+}
+
+aside ul {list-style: none}
+aside ul li {
+    float: left;
+    color: #ffffff;
+    display: block;
+    margin-top: -15px;
+    margin-left: 215px;
+    font-size: 24px;
+    transition: transform .6s ease;
+}
+aside .num {
+    float: right;
+    margin-top: -7px;
+}
+
+aside ul li:hover, aside ul a:hover {
+    color: #561010;
+    text-decoration: none;
+    transform: scale(1.05);
+}
+
+main .features {
+    color: #212121;
+    margin-top: 350px;
+    text-align: center;
+    width: 100%;
+}
+
+main .config {
+    float: left;
+    color: #212121;
+    margin-top: 100px;
+    text-align: center;
+    width: 100%;
+}
+
+main .desk {
+    margin-top: -140px;
+    margin-left: 100px;
+    float: left;
+    width: 430px;
+}
+
+main .desk_1 {
+    margin-top: -150px;
+    margin-right: 100px;
+    float: right;
+    width: 440px;
+}
+
+main .lay {
+    margin-top: 50px;
+}
+
+main .desk_2 {
+    margin-top: 200px;
+    margin-right: 100px;
+    float: right;
+    width: 350px;
+}
+
+main .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+main .dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+main .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+main .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+main .dropdown-content a:hover {background-color: #ddd;}
+
+/* Show the dropdown menu on hover */
+main .dropdown:hover .dropdown-content {display: block;}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+main .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+main .name {
+    color: #212121;
+    margin-top: 350px;
+    text-align: center;
+    width: 100%;
+}
