@@ -11,3 +11,21 @@ class Category(models.Model):
 
     def __str__(self):
         return self.name
+
+class Product(models.Model):
+    category = models.ForeignKey(Category,
+                                 related_name='products',
+                                 on_delete=models.CASCADE())
+    name = models.CharField(max_length=150, db_index=True)
+    slug = models.CharField(max_length=150, db_index=True, unique=True)
+    image = models.ImageField(upload_to='produkt/%Y/%m/%d', blank=True)
+    description = models.TextField(max_length=1000, blank=True)
+    prise = models.DecimalField(max_length=10, decimal_places=2)
+    available = models.BooleanField(default=True)
+    created = models.DateTimeField(auto_now_add=True)
+    uploaded = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ('name')
+        verbose_name = 'Товар'
+        verbose_name_plural = 'Товары'
