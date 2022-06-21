@@ -1,0 +1,23 @@
+{% extends 'main/layout.html' %}
+{% load static %}
+{% block title %}Главная страница{% endblock %}
+
+{% block content %}
+    <div class="features">
+
+        <a><img src="{% static 'main/img/xbox.jpg' %}" alt="Лого" class="desk"></a>
+        <a><img src="{% static 'main/img/ps5.1.jpg' %}" alt="Лого" class="desk_1"></a>
+    </div>
+    <div class="name">
+        <h1 class="lay">"SLM-Shop" - Аренда/покупка игровых консолей</h1>
+    </div>
+    <div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="{% url 'cont' %}">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+{% endblock %}
+
